@@ -1,0 +1,679 @@
+<!-- sm,md,lg,xl,xxl -->
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" id="font-wasesome-css" href="https://digitals.com.mx/css/fontawesome/fa-all.min.css" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <!-- mi archivo de js -->
+  <script src="store.js" async></script>
+  <link rel="stylesheet" href="style.css" />
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+  <div class="container pt-5 pb-5 d-none d-lg-block">
+    <div class="row">
+      <div class="col">Img</div>
+      <div class="col-6">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+            aria-describedby="button-addon2">
+          <button class="btn btn-dark" type="button" id="button-addon2">
+            <i class="fas fa-search"></i>
+          </button>
+        </div>
+      </div>
+      <div class="col">ML</div>
+      <div class="col">IS</div>
+      <div class="col">SAVE</div>
+      <div class="col"><button onclick="muestra()">
+          <i class="fas fa-shopping-cart"></i>
+        </button></div>
+    </div>
+  </div>
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+
+  <nav class="navbar navbar-expand-lg navbar-light border-top border-bottom border-1 sticky-top bg-white py-0">
+    <div class="container">
+      <a class="d-lg-none navbar-brand" href="#">Navbar</a>
+      <a class="d-lg-none navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link px-lg-5 active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-lg-5" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link px-lg-5 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link px-lg-5 disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 p-5">
+        <div class="card-body">
+          <h3 class="card-title">Card title</h3>
+          <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+            content.</p>
+          <button type="button" class="btn btn-outline-info">Info</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <img src="https://multiherramientas.mx/wp-content/uploads/2021/05/Makita.png" class="img-fluid"
+          alt="imagen responsiva">
+      </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md">
+        <div class="contenedor">
+          <figure>
+            <img src="https://multiherramientas.mx/wp-content/uploads/2021/05/showimage.png" alt="...">
+            <div class="capa">
+              <h3>Titulo</h3>
+              <p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Repudiandae animi dolorum cumque, dolores,
+                dignissimos ipsa accusantium non officia porro sunt fugit, voluptas deserunt fugiat corrupti dicta id
+                aut quaerat quidem!</p>
+            </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="contenedor">
+          <figure>
+            <img src="https://multiherramientas.mx/wp-content/uploads/2021/05/showimage-297.jpeg" alt="...">
+            <div class="capa">
+              <h3>Titulo</h3>
+              <p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Repudiandae animi dolorum cumque, dolores,
+                dignissimos ipsa accusantium non officia porro sunt fugit, voluptas deserunt fugiat corrupti dicta id
+                aut quaerat quidem!</p>
+            </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="contenedor">
+          <figure>
+            <img src="https://multiherramientas.mx/wp-content/uploads/2021/05/1-1.jpg" alt="...">
+            <div class="capa">
+              <h3>Titulo</h3>
+              <p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Repudiandae animi dolorum cumque, dolores,
+                dignissimos ipsa accusantium non officia porro sunt fugit, voluptas deserunt fugiat corrupti dicta id
+                aut quaerat quidem!</p>
+            </div>
+          </figure>
+        </div>
+      </div>
+      <div class="col-md">
+        <div class="contenedor">
+          <figure>
+            <img src="https://multiherramientas.mx/wp-content/uploads/2021/05/1-1.jpg" alt="...">
+            <div class="capa">
+              <h3>Titulo</h3>
+              <p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Repudiandae animi dolorum cumque, dolores,
+                dignissimos ipsa accusantium non officia porro sunt fugit, voluptas deserunt fugiat corrupti dicta id
+                aut quaerat quidem!</p>
+            </div>
+          </figure>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-5">
+      <p class="fs-3 fw-bolder text-center">Somos lo que somos</p>
+      <p class="fs-5 text-center">Estamos en Guadalajara</p>
+      <p class="fs-5 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod pariatur, voluptatum
+        assumenda, veritatis minima harum adipisci aliquid eveniet laboriosam rem et consequuntur. Perspiciatis, cumque
+        doloribus voluptatibus a placeat. Doloremque, dolorem!</p>
+      <p class="fs-5 text-center">
+        <a href="https://wa.me/+53314865495" class="dg-link-sr text-dark">W 3333333333</a>
+      </p>
+      <p class="fs-5 text-center">
+        <a href="tel:+53314865495" class="dg-link-sr text-dark">T 3333333333</a>
+      </p>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-md">
+        <div class="card">
+          <img src="https://multiherramientas.mx/wp-content/uploads/2021/05/showimage-2730.jpeg" class="card-img-bottom"
+            alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">HERRAMIENTAS ELÉCTRICAS</small></p>
+            <h6 class="card-title">Martillo Demoledor 16 Kg 1750w 45j Gsh 16-28</h6>
+            <p class="card-text text-muted">
+              <span>Artículo A</span><br>
+              <span>BOSCH</span>
+            </p>
+          </div>
+          <div class="card-footer bg-white articulo">
+            <span class="precio-dto text-muted">cantidad</span>
+            <span class="precio">$ 100.00</span>
+            <span class="dto">-10%</span>
+            <button class="guarda" data-target="A">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="precio-carrito carrito" data-target="A" data-costo="100.00">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md">
+        <div class="card">
+          <img src="https://multiherramientas.mx/wp-content/uploads/2021/05/showimage-2730.jpeg" class="card-img-bottom"
+            alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">HERRAMIENTAS ELÉCTRICAS</small></p>
+            <h6 class="card-title">Martillo Demoledor 16 Kg 1750w 45j Gsh 16-28</h6>
+            <p class="card-text text-muted">
+              <span>Artículo B</span><br>
+              <span>BOSCH</span>
+            </p>
+          </div>
+          <div class="card-footer bg-white articulo">
+            <span class="precio-dto text-muted">cantidad</span>
+            <span class="precio">$ 200.00</span>
+            <span class="dto">-10%</span>
+            <button class="guarda" data-target="B">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="precio-carrito carrito" data-target="B" data-costo="200.00">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md">
+        <div class="card">
+          <img src="https://multiherramientas.mx/wp-content/uploads/2021/05/showimage-2730.jpeg" class="card-img-bottom"
+            alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">HERRAMIENTAS ELÉCTRICAS</small></p>
+            <h6 class="card-title">Martillo Demoledor 16 Kg 1750w 45j Gsh 16-28</h6>
+            <p class="card-text text-muted">
+              <span>Artículo C</span><br>
+              <span>BOSCH</span>
+            </p>
+          </div>
+          <div class="card-footer bg-white articulo">
+            <span class="precio-dto text-muted">cantidad</span>
+            <span class="precio">$ 300.00</span>
+            <span class="dto">-10%</span>
+            <button class="guarda" data-target="C">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="precio-carrito carrito" data-target="C" data-costo="300.00">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md">
+        <div class="card">
+          <img src="https://multiherramientas.mx/wp-content/uploads/2021/05/showimage-2730.jpeg" class="card-img-bottom"
+            alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">HERRAMIENTAS ELÉCTRICAS</small></p>
+            <h6 class="card-title">Martillo Demoledor 16 Kg 1750w 45j Gsh 16-28</h6>
+            <p class="card-text text-muted">
+              <span>Artículo D</span><br>
+              <span>BOSCH</span>
+            </p>
+          </div>
+          <div class="card-footer bg-white articulo">
+            <span class="precio-dto text-muted">cantidad</span>
+            <span class="precio">$ 150.00</span>
+            <span class="dto">-10%</span>
+            <button class="guarda" data-target="D">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="precio-carrito carrito" data-target="D" data-costo="150.00">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md">
+        <div class="card">
+          <img src="https://multiherramientas.mx/wp-content/uploads/2021/05/showimage-2730.jpeg" class="card-img-bottom"
+            alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">HERRAMIENTAS ELÉCTRICAS</small></p>
+            <h6 class="card-title">Martillo Demoledor 16 Kg 1750w 45j Gsh 16-28</h6>
+            <p class="card-text text-muted">
+              <span>Artículo E</span><br>
+              <span>BOSCH</span>
+            </p>
+          </div>
+          <div class="card-footer bg-white articulo">
+            <span class="precio-dto text-muted">cantidad</span>
+            <span class="precio">$ 250.00</span>
+            <span class="dto">-10%</span>
+            <button class="guarda" data-target="E">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="precio-carrito carrito" data-target="E" data-costo="250.00">
+              <i class="fas fa-shopping-cart"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="row mt-5">
+      <div class="col-md">
+        <div class="card">
+          <img src="https://resources.sears.com.mx/medios-plazavip/fotos/productos_sears1/original/2833231.jpg" class="card-img-bottom"
+            alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">HERRAMIENTAS ELÉCTRICAS</small></p>
+            <h6 class="card-title">REMOLEDOR 18 A WIWI</h6>
+            <p class="card-text text-muted">
+              <span>Artículo F</span><br>
+              <span>BOSCH</span>
+            </p>
+          </div>
+          <div class="card-footer bg-white articulo">
+            <span class="precio-dto text-muted">cantidad</span>
+            <span class="precio">$ 10000.00</span>
+            <span class="dto">-10%</span>
+            <button class="guarda" data-target="F">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="btn btn-primary shop-item-button" data-target="G" data-costo="10000.00">Agregar</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md">
+        <div class="card">
+          <img src="https://multiherramientas.mx/wp-content/uploads/2021/05/showimage-2730.jpeg" class="card-img-bottom"
+            alt="...">
+          <div class="card-body">
+            <p class="card-text"><small class="text-muted">HERRAMIENTAS ELÉCTRICAS</small></p>
+            <h6 class="card-title">Martillo Demoledor 16 Kg 1750w 45j Gsh 16-28</h6>
+            <p class="card-text text-muted">
+              <span>Artículo G</span><br>
+              <span>BOSCH</span>
+            </p>
+          </div>
+          <div class="card-footer bg-white articulo">
+            <span class="precio-dto text-muted">cantidad</span>
+            <span class="precio">$500.00</span>
+            <span class="dto">-10%</span>
+            <button class="guarda" data-target="G">
+              <i class="far fa-heart"></i>
+            </button>
+            <button class="btn btn-primary shop-item-button agregado" data-target="G" data-costo="500.00">Agregar</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <!-- 
+    <center>
+      <div class="mapouter">
+        <div class="gmap_canvas">
+          <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Av.Hidalgo 400, Colonia Centro, Guadalajara, Jalisco, México&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+ -->
+      <!--           <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=<?php echo urlencode($mysoc->getFullAddress()); ?>&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+ -->
+      <!-- 
+         </div>
+        <style>
+          .mapouter {
+            text-align:right;
+            height:500px;
+            width:600px;
+          }
+          .gmap_canvas {
+            overflow:hidden;
+            background:none!important;
+            height:500px;
+            width:600px;
+          }
+        </style>
+      </div>
+    </center>
+ -->
+
+    </div>
+  </div>
+
+
+  <div class="capa" id="capa"></div>
+  <div class="espera" id="espera">
+    <div><button class="cerrar">CIRRRAQ</button></div>
+    <section class="container content-section">
+      <h2 class="section-header">Carro de compras</h2>
+      <div class="cart-row">
+        <span class="cart-item cart-header cart-column">Producto</span>
+        <span class="cart-price cart-header cart-column">Precio</span>
+        <span class="cart-quantity cart-header cart-column">Total</span>
+      </div>
+      <div class="cart-items">
+      </div>
+      <div class="cart-total">
+        <strong class="cart-total-title">Total</strong>
+        <span class="cart-total-price">$0</span>
+      </div>
+      <button class="btn btn-primary btn-purchase" type="button">Comprar</button>
+    </section>
+    <!--<p>Nombre del producto:<br><input type="text" name="producto" id="producto"></p>-->
+  </div>
+
+  <style type="text/css">
+    .capa {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 9000;
+      width: 100%;
+      height: 100%;
+      background: #000;
+      opacity: .4;
+      display: none;
+    }
+
+    .espera {
+      position: absolute;
+      z-index: 9001;
+      top: 0;
+      right: 0;
+      width: auto;
+      height: 100%;
+      background-color: #FFF;
+      align-content: center;
+      text-align: center;
+      vertical-align: middle;
+      -webkit-filter: drop-shadow(2px 2px 4px rgba(255, 255, 255, 0.6));
+      display: none;
+    }
+  </style>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+</body>
+
+</html>
+
+<style type="text/css">
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor figure {
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+  }
+
+  .contenedor figure img {
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+  }
+
+  .contenedor figure .capa {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(11, 103, 123, 0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+  }
+
+  .contenedor figure:hover>.capa {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .contenedor figure:hover>img {
+    transform: scale(1.1);
+  }
+
+  .contenedor figure:hover>.capa h3 {
+    margin-top: 70px;
+    margin-bottom: 15px;
+  }
+
+  .contenedor figure .capa h3 {
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+  }
+
+  .contenedor figure .capa p {
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+  }
+
+  .dg-link-sr {
+    text-decoration: none;
+  }
+
+
+  .precio-dto {
+    float: left;
+    font-size: 20px;
+    text-decoration: line-through;
+    position: absolute;
+    bottom: 25px;
+    left: 8px;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  .precio {
+    float: left;
+    font-size: 25px;
+    font-weight: 700;
+    color: #81d742;
+    position: absolute;
+    bottom: 4px;
+    left: 8px;
+    display: block;
+    padding: 0;
+    margin: 0;
+  }
+
+  .dto {
+    float: right;
+    font-size: 12px;
+    font-weight: 700;
+    background: #ff2238;
+    position: absolute;
+    color: #fff;
+    top: 6px;
+    right: 6px;
+    display: block;
+    padding: 4px;
+    margin: 0;
+
+  }
+
+  .precio-carrito {
+    background: grey;
+    border-radius: 100px !important;
+    color: #fff !important;
+    display: block;
+    float: right;
+    font-size: 15px;
+    font-weight: 700;
+    height: 38px;
+    width: 38px;
+    line-height: 20px;
+    margin: 0 auto 6px;
+    padding: 8px 8px 8px 6px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none !important;
+    text-transform: uppercase;
+  }
+
+  .precio-carrito:hover {
+    background: #002ae5 !important;
+    color: #e9dede !important;
+    box-shadow: -1px 6px 13px rgba(0, 42, 229, 0.4) !important;
+    border-color: transparent;
+  }
+
+  .guarda {
+    background: white;
+    border-radius: 100px !important;
+    color: grey !important;
+    border: solid 1px grey;
+    display: block;
+    float: left;
+    font-size: 15px;
+    font-weight: 700;
+    height: 30px;
+    width: 30px;
+    line-height: 20px;
+    margin: 0 auto;
+    top: 6px;
+    left: 6px;
+    padding: 3px;
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none !important;
+    text-transform: uppercase;
+  }
+
+  .guarda:hover {
+    color: red !important;
+    /*box-shadow:-1px 6px 13px rgba(0,42,229,0.4) !important;*/
+    /*border-color:transparent;*/
+  }
+
+</style>
+
+
+
+<script type="text/javascript">
+
+  var guardados = ['C', 'G'];
+  var sesion = getSession('SitioMh', 5);
+
+$(document).ready(function() {
+  $(".cerrar").on('click', function () {
+    document.getElementById("capa").style.display = "none";
+    document.getElementById("espera").style.display = "none";
+  });
+
+})
+  
+
+  $(" .agregado ").on('click', function () {
+    alert("Agregar al carrito el articulo: " + $(this).data().target + " con valor de: $" + $(this).data().costo);
+
+    $("#producto").val($(this).data().costo);
+    console.log(sesion);
+  });
+
+  cuenta();
+  //alert(sesion);
+  console.log(sesion);
+
+  // para el botón superior derecho del carrito
+  function muestra() {
+    document.getElementById("capa").style.display = "block";
+    document.getElementById("espera").style.display = "block";
+  }
+
+  // recorre los elementos e identifica los guardados
+  function cuenta() {
+    $(".guarda").each(function () {
+      if (guardados.indexOf($(this).data().target) >= 0) {
+        console.log($(this).data().target);
+        $(this).css({ 'background-color': 'red' })
+      }
+    });
+  }
+
+  // enera una sesión o toma la ya existente
+  function getSession(nameEQ, days) {
+
+    let session_id = "";
+    nameEQ += '=';
+
+    let ca = document.cookie.split(";");
+    for (var i = 0; i < ca.length; i++) {
+      let c = ca[i];
+      while (c.charAt(0) === " ") c = c.substring(1, c.length);
+      if (c.indexOf(nameEQ) === 0) session_id = c.substring(nameEQ.length, c.length);
+    }
+
+    if (session_id == "") {
+      let date = new Date();
+      let time = days * 86400000;
+      date.setTime(date.getTime() + time);
+      session_id = date.getTime().toString(36).substr(2, 5) + '.' + Math.random().toString(36).substr(2, 9);
+      document.cookie = "dg-id-chat-5=" + session_id + "; expires=" + date.toUTCString() + "; path=/";
+    }
+
+    return session_id;
+  }
+
+</script>
